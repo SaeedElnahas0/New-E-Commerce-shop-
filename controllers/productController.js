@@ -69,9 +69,9 @@ const getAll = async (req, res) => {
 };
 
 module.exports = {
-    createProduct,
-    updateProduct,
-    deleteProduct,
-    getOne,
-    getAll
-}
+  createProduct,
+  updateProduct,
+  deleteProduct,
+  getOne,
+  getAll,
+};

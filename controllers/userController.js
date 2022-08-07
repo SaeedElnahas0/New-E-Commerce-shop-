@@ -79,10 +79,9 @@ const getUserStats = async (req, res) => {
 };
 
 module.exports = {
-    updateUser,
-    deleteUser,
-    getUserStats,
-    getOne,
-    getAll
-}
-
+  updateUser,
+  deleteUser,
+  getUserStats,
+  getOne,
+  getAll,
+};

@@ -9,8 +9,8 @@ const {
   updateCart,
   deleteCart,
   getOneUser,
-  getAll
-} = require('../controllers/cartController')
+  getAll,
+} = require("../controllers/cartController");
 
 const router = require("express").Router();
 

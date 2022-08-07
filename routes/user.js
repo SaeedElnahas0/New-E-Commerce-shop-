@@ -1,4 +1,3 @@
-
 const {
   verifyToken,
   verifyTokenAndAuthorization,
@@ -10,8 +9,8 @@ const {
   deleteUser,
   getUserStats,
   getOne,
-  getAll
-} = require('../controllers/userController')
+  getAll,
+} = require("../controllers/userController");
 
 const router = require("express").Router();
 

@@ -4,17 +4,16 @@ const {
   verifyTokenAndAdmin,
 } = require("./verifyToken");
 
-const { 
+const {
   createOrder,
   updateOrder,
   deleteOrder,
   getUserOrder,
   getAll,
-  getMonthlyIncome
-} = require('../controllers/orderController')
+  getMonthlyIncome,
+} = require("../controllers/orderController");
 
 const router = require("express").Router();
-
 
 router.post("/", verifyToken, createOrder);
 router.put("/:id", verifyTokenAndAuthorization, updateOrder);

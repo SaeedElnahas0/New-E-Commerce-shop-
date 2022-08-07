@@ -81,10 +81,10 @@ const getMonthlyIncome = async (req, res) => {
 };
 
 module.exports = {
-    createOrder,
-    updateOrder,
-    deleteOrder,
-    getUserOrder,
-    getAll,
-    getMonthlyIncome
-}
+  createOrder,
+  updateOrder,
+  deleteOrder,
+  getUserOrder,
+  getAll,
+  getMonthlyIncome,
+};
