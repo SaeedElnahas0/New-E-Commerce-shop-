@@ -25,7 +25,7 @@ const register = async (req, res) => {
 const login = async (req, res) => {
   try {
     const user = await User.findOne({
-      userName: req.body.user_name,
+      username: req.body.username,
     });
 
     !user && res.status(401).json("Wrong User Name");
